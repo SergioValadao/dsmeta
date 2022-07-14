@@ -1,0 +1,96 @@
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.dsmeta-card h2 {
+    font-size: 24px;
+    color: #676FFF;
+    margin-bottom: 20px;
+}
+
+.dsmeta-form-control {
+    margin-bottom: 16px;
+}
+
+.inputcontrol {
+    height: 46px;
+    font-weight: 400;
+    line-height: 21px;
+    background-color: #1b2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.dsmeta-tabela {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-tabela thead {
+    height: 55px;
+    font-size: 16px;
+    color: #E9E9E9;
+    font-weight: 700;
+}
+
+.dsmeta-tabela tbody {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-tabela tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+
+}
+
+.dsmeta-tabela tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}
+
+.dsmeta-tabela tbody tr:hover>td {
+    background-color: #384459;
+}
+
+.showdata {
+    display: none;
+}
+
+.showMax {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .showdata {
+        display: table-cell;
+    }
+
+    .dsmeta-card {
+        padding: 35px 35px;
+    }
+
+    .dsmeta-tabela tbody tr {
+        height: 62px;
+    }
+
+    .dsmeta-tabela tbody {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .showMax {
+        display: table-cell;
+    }
+}
+
+Footer © 2022 GitHub,
+Inc. Footer navigation Terms Privacy

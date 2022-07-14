@@ -1,18 +1,21 @@
 import NotificationButton from "./components/NotificationButton"
-import icon from '../src/assets/img/notification-icon.svg'
 import Header from "./components/Header"
 import './components/Header/styles.css'
+import '../src/index.css'
+
+import SalesCard from "./components/SalesCard"
 
 function App() {
   return(
     <>
       <Header />
-      <div className="btn">
-          <div className="div-btn">
-            <img src={icon} alt="vector.svg"/>          
-          </div>
-      </div>
-      
+      <main>
+        <section id="sales">
+            <div className="dsmeta-Container">
+              <SalesCard />
+            </div>
+        </section>
+      </main>
     </>
   )
 
